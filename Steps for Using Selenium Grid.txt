@@ -1,0 +1,25 @@
+Steps for Using Selenium Grid
+
+1>Download selenium server package 
+https://www.selenium.dev/downloads/
+
+
+2>Start the hub 
+java -jar selenium-server-standalone 4.18.1 -role hub  (Automatically the hub will be started in port 4444)
+
+3>Connect to machines and get their IPS
+java -jar  selenium-server-standalone 4.18.1 -role node <ip of the machine>
+
+4>Configure the nodes
+
+5>Set Up the Desired Capabilities and execute your test case 
+
+DesiredCapabilities cap=new DesiredCapabilities();
+		cap.setCapability("Android Version", "6.7.1");
+		cap.setBrowserName("chrome");
+		
+		WebDriver driver=new RemoteWebDriver(new URL(""),cap);
+
+
+
+
