@@ -1,0 +1,34 @@
+Gherking is a typeof language that implements the principle of BRDSL
+
+
+
+A>
+Create a TestNg Class , Write four test in it , 
+
+1> Open wikipedia and search selenium and try to open the selenium page and capture the titleof the page adn then check that the page contains keyword selenium---- chrome
+
+2> Open google. com and click on gmail link and capture the title of the page
+Open google .com and click on Images link (Images link to run first then run the gmail link )
+----firefox 
+
+3> Open amazon .com and search  redmi note 12 pro+5g and capture the price of redmi note 12 pro+5g----edge 
+
+All the three test to execute in a parallel mode with thread count as 3 and 5
+
+
+
+B> Create account in https://demo.guru99.com/V4/index.php
+
+
+A> Login into the application with incorrect user id and password (second time put correct user id and password)
+
+B> Create a New Customer with all the details (Keep Xpaths safe )(Dependent on the first test)
+
+C>Edit the Customer ID (Dependent on B)
+
+
+
+
+
+
+
