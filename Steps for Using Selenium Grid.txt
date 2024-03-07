@@ -21,5 +21,11 @@ DesiredCapabilities cap=new DesiredCapabilities();
 		WebDriver driver=new RemoteWebDriver(new URL(""),cap);
 
 
+///This is priya code 
+
+int x=10;
+int y=x+20;
+
+
 
 
