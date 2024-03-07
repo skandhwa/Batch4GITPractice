@@ -21,5 +21,10 @@ DesiredCapabilities cap=new DesiredCapabilities();
 		WebDriver driver=new RemoteWebDriver(new URL(""),cap);
 
 
+int y=20;
+int h=30;
+
+
+
 
 
